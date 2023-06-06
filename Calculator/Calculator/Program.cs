@@ -35,6 +35,11 @@ class Program
         if (q == "2")
         {
             Console.ForegroundColor = ConsoleColor.Green;
+            if (b == 0)
+            {
+                Console.WriteLine("Деление на 0");
+            }
+            else
             Console.WriteLine("Результат деления = {0}", a / b);
         }
         if (q == "3")
